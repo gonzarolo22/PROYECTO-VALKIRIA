@@ -1,0 +1,138 @@
+
+	 		.body {
+				background-image: url(../img/15578bade17dcc3.jpg);
+				background-size: 100% 92%;
+		
+		
+			}
+	 		* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:none;
+				width:500px;
+				font-family:cursive;
+
+			}
+			
+			ul {
+				list-style:none;
+			}
+			
+			.nav {
+				width:700px; 
+				margin:auto; 
+				
+			}
+ 
+			.nav > li {
+				float: left;
+			}
+			
+			.nav li a {
+				background-color:violet;
+				color:white;
+				text-decoration:none;
+				padding:20px 10px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:pink;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:200px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			*{
+				background-color: white;
+			}
+			#banner {
+				width: 100%;
+				
+			}
+			header	{ 
+				text-align: left ; font-family: cursive;
+			} 
+			#inicio {
+				width: 5000%;
+			}
+			
+			.Logocentrado{
+				margin:10px auto;
+				display:block;
+				width: 15%;
+				height: 15%;
+			   }
+			.tp{
+				width:400px; 
+				height:500px;
+			}
+			.slider {
+				margin:10px auto;
+				display: block;
+				width: 25%;
+				
+				margin: auto;
+				overflow: hidden;
+			}
+			
+			.slider ul {
+				display: flex;
+				padding: 0;
+				width: 400%;
+				
+				animation: cambio 13s infinite alternate linear;
+				
+			}
+			
+			.slider li {
+				width: 100%;
+				list-style: none;
+				margin: 0%;
+				
+
+			}
+			
+			.slider img {
+				width: 300px;
+				
+			}
+			
+			@keyframes cambio {
+				0% {margin-left: 0;}
+				20% {margin-left: 0;}
+				
+				25% {margin-left: -100%;}
+				45% {margin-left: -100%;}
+				
+				50% {margin-left: -200%;}
+				70% {margin-left: -200%;}
+				
+				75% {margin-left: -300%;}
+				100% {margin-left: -300%;}
+			}
+			
+            .volanta {
+				text-align: center;
+				font-family: cursive;
+				
+			}
+         
